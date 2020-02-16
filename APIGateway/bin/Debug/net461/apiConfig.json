@@ -1,0 +1,27 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/cart",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/cart",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Key": "cart",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "64291"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId",
+    "AdministrationPath": "/administration",
+    "UseServiceDiscovery": true,
+    "ServiceDiscoveryProvider": {
+      "Type": "Eureka",
+      "Host": "eureka-server",
+      "Port": "8761"
+    }
+  }
+}

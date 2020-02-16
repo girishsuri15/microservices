@@ -1,0 +1,16 @@
+D:\nagp\Finalnagp\commerce\Cart\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\nagp\Finalnagp\commerce\Cart\bin\Debug\netcoreapp2.2\appsettings.json
+D:\nagp\Finalnagp\commerce\Cart\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\nagp\Finalnagp\commerce\Cart\obj\Debug\netcoreapp2.2\Cart.AssemblyInfoInputs.cache
+D:\nagp\Finalnagp\commerce\Cart\obj\Debug\netcoreapp2.2\Cart.AssemblyInfo.cs
+D:\nagp\Finalnagp\commerce\Cart\bin\Debug\netcoreapp2.2\Cart.deps.json
+D:\nagp\Finalnagp\commerce\Cart\bin\Debug\netcoreapp2.2\Cart.runtimeconfig.json
+D:\nagp\Finalnagp\commerce\Cart\bin\Debug\netcoreapp2.2\Cart.runtimeconfig.dev.json
+D:\nagp\Finalnagp\commerce\Cart\bin\Debug\netcoreapp2.2\Cart.dll
+D:\nagp\Finalnagp\commerce\Cart\obj\Debug\netcoreapp2.2\Cart.csprojAssemblyReference.cache
+D:\nagp\Finalnagp\commerce\Cart\obj\Debug\netcoreapp2.2\Cart.RazorAssemblyInfo.cache
+D:\nagp\Finalnagp\commerce\Cart\obj\Debug\netcoreapp2.2\Cart.RazorAssemblyInfo.cs
+D:\nagp\Finalnagp\commerce\Cart\obj\Debug\netcoreapp2.2\Cart.RazorTargetAssemblyInfo.cache
+D:\nagp\Finalnagp\commerce\Cart\bin\Debug\netcoreapp2.2\Cart.pdb
+D:\nagp\Finalnagp\commerce\Cart\obj\Debug\netcoreapp2.2\Cart.dll
+D:\nagp\Finalnagp\commerce\Cart\obj\Debug\netcoreapp2.2\Cart.pdb

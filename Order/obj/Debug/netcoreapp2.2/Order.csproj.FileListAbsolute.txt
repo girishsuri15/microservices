@@ -1,0 +1,5 @@
+D:\nagp\Finalnagp\commerce\Order\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\nagp\Finalnagp\commerce\Order\bin\Debug\netcoreapp2.2\appsettings.json
+D:\nagp\Finalnagp\commerce\Order\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\nagp\Finalnagp\commerce\Order\obj\Debug\netcoreapp2.2\Order.AssemblyInfoInputs.cache
+D:\nagp\Finalnagp\commerce\Order\obj\Debug\netcoreapp2.2\Order.AssemblyInfo.cs

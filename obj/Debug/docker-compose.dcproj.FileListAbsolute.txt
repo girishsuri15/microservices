@@ -1,0 +1,10 @@
+D:\nagp\Finalnagp\commerce\bin\Debug\appsettings.Development.json
+D:\nagp\Finalnagp\commerce\bin\Debug\appsettings.json
+D:\nagp\Finalnagp\commerce\bin\Debug\Properties\launchSettings.json
+D:\nagp\Finalnagp\commerce\bin\Debug\Cart.dll
+D:\nagp\Finalnagp\commerce\bin\Debug\Cart.pdb
+D:\nagp\Finalnagp\commerce\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+D:\nagp\Finalnagp\commerce\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\nagp\Finalnagp\commerce\bin\Debug\apiConfig.json
+D:\nagp\Finalnagp\commerce\bin\Debug\Gateway.dll
+D:\nagp\Finalnagp\commerce\bin\Debug\Gateway.pdb

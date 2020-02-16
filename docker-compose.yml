@@ -1,0 +1,37 @@
+version: '3.4'
+
+services:
+  cart:
+    image: ${DOCKER_REGISTRY-}cart
+    build:
+      context: .
+      dockerfile: Cart/Dockerfile
+    ports:
+      - "64291:80"
+    environment:
+      eureka.client.enabled: 'true'
+      eureka.host: eureka-server
+      eureka.instance.preferIpAddress: 'true'
+    depends_on:
+     - eureka-server
+
+  eureka-server:
+    image: steeltoeoss/eureka-server
+    restart: always
+    ports:
+     - "8761:8761"
+
+  Gateway:
+    image: ${DOCKER_REGISTRY-}gateway
+    build:
+      context: .
+      dockerfile: Gateway/Dockerfile
+    ports:
+      - "64222:80"
+    depends_on:
+     - cart
+     - eureka-server
+    environment:
+      eureka.client.enabled: 'true'
+      eureka.host: eureka-server
+      eureka.instance.preferIpAddress: 'true'

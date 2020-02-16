@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\APIGateway",
+    "\\Cart",
+    "\\Order"
+  ],
+  "SelectedNode": "\\Cart\\Cart.csproj.user",
+  "PreviewInSolutionExplorer": false
+}

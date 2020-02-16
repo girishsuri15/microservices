@@ -1,0 +1,41 @@
+services:
+  Gateway:
+    build:
+      context: D:\nagp\Finalnagp\commerce
+      dockerfile: Gateway/Dockerfile
+    depends_on:
+    - cart
+    - eureka-server
+    environment:
+      eureka.client.enabled: "true"
+      eureka.host: eureka-server
+      eureka.instance.preferIpAddress: "true"
+    image: gateway
+    ports:
+    - published: 64222
+      target: 80
+  cart:
+    build:
+      context: D:\nagp\Finalnagp\commerce
+      dockerfile: Cart/Dockerfile
+    depends_on:
+    - eureka-server
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      eureka.client.enabled: "true"
+      eureka.host: eureka-server
+      eureka.instance.preferIpAddress: "true"
+    image: cart
+    ports:
+    - published: 64291
+      target: 80
+    - target: 80
+    volumes:
+    - C:\Users\girishsuri\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  eureka-server:
+    image: steeltoeoss/eureka-server
+    ports:
+    - published: 8761
+      target: 8761
+    restart: always
+version: '3.4'
